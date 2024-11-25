@@ -1,0 +1,364 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    background: rgb(28, 28, 28);
+    display: flex;
+    padding: 1vw;
+    justify-content: space-between;
+    align-items: center;
+
+    & h1 {
+        width: 20%;
+        color: white;
+        font-size: 1.5vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: none;
+    }
+
+    & nav {
+        width: 40%;
+
+        & a {
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 1.1vw;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0.5vw;
+
+        }
+    }
+
+}
+
+main {
+    width: 100%;
+
+
+    & .container {
+        display: flex;
+        background: rgb(28, 28, 28);
+        justify-content: space-between;
+        padding: 2vw;
+        padding-top: 5vw;
+        height: 70vh;
+
+        & .texto {
+            width: 40%;
+            color: white;
+            font-size: 1.4vw;
+            font-family: Arial, Helvetica, sans-serif;
+            align-items: center;
+            padding-left: 10vw;
+            padding-top: 10vw;
+
+            & span {
+                text-align: justify;
+                line-height: 1vw;
+            }
+
+            & h1 {
+                font-size: 3vw;
+                font-weight: bold;
+            }
+
+            & .botoes {
+                display: flex;
+
+                #botao1 {
+                    width: 10vw;
+                    padding: 1vw;
+                    background: blue;
+                    color: white;
+                    font-size: 0.8em;
+                    font-family: Arial, Helvetica, sans-serif;
+                    border-radius: 0.6vw;
+                }
+
+                #botao2 {
+                    width: 10vw;
+                    padding: 1vw;
+                    margin-left: 1vw;
+                    font-size: 0.8em;
+                    font-family: Arial, Helvetica, sans-serif;
+                    border-radius: 0.6vw;
+                    border: 1px solid white;
+                    background: rgb(28, 28, 28);
+                    color: white;
+
+                }
+            }
+
+            & .imagem {
+                margin: 5vw;
+                width: 50%;
+
+                & img {
+                    border-radius: 0.7vw;
+                }
+            }
+        }
+    }
+
+    & .container2 {
+        width: 100%;
+        display: flex;
+
+
+
+        & h2 {
+            font-weight: bold;
+            font-size: 1em;
+            padding-left: 5vw;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 5vw;
+        }
+
+        h1 {
+            font-size: 1em;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+        & .card1 {
+            width: 40%;
+            margin: 1vw;
+            padding: 1vw;
+            padding-left: 20vw;
+        }
+
+        & .card2 {
+            width: 40%;
+            margin: 1vw;
+            padding: 1vw;
+            padding-left: 20vw;
+        }
+
+        & .card3 {
+            width: 40%;
+            margin: 1vw;
+            padding: 1vw;
+        }
+
+        & .card4 {
+            width: 40%;
+            margin: 1vw;
+            padding: 1vw;
+        }
+
+    }
+
+    & .container3 {
+        width: 100%;
+        background: rgba(225, 225, 225, 0.801);
+        align-items: center;
+        text-align: justify;
+        text-align: center;
+        padding-top: 5vw;
+
+        & .texto2 {
+            font-size: 1.4em;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            font-weight: lighter;
+        }
+
+        & .texto3 {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            padding-left: 40%;
+
+            & img {
+                border-radius: 2vw;
+            }
+        }
+
+    }
+
+    & .container4 {
+        width: 100%;
+
+        & .container44 {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding-top: 5vw;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        & .section2 {
+            display: flex;
+            padding: 5vw;
+
+            & .card5 {
+                width: 27%;
+                border: none;
+                box-shadow: 1px 1px 1px 1px;
+                height: 60vh;
+                margin-right: 2vw;
+
+                & h1 {
+                    font-size: 1vw;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+
+                & span {
+                    font-size: 0.8vw;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+
+                & .marcacao1 {
+                    display: flex;
+
+                    & img {
+                        border-radius: 2vw;
+                    }
+
+                    & .marcacao11 {
+                        & h3 {
+                            font-family: Arial, Helvetica, sans-serif;
+                        }
+
+                        font-size: 0.9vw;
+                    }
+                }
+            }
+
+            & .card6 {
+                width: 27%;
+                border: none;
+                box-shadow: 1px 1px 1px 1px;
+                height: 60vh;
+
+                & h1 {
+                    font-size: 1vw;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+
+                & span {
+                    font-size: 0.8vw;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+
+                & .marcacao2 {
+                    display: flex;
+
+                    & img {
+                        border-radius: 2vw;
+                    }
+
+                    & .marcacao22 {
+                        & h3 {
+                            font-family: Arial, Helvetica, sans-serif;
+                        }
+
+                        font-size: 0.9vw;
+                    }
+                }
+            }
+
+            & .card7 {
+                width: 27%;
+                border: none;
+                box-shadow: 1px 1px 1px 1px;
+                height: 60vh;
+                margin-left: 2vw;
+
+                & h1 {
+                    font-size: 1vw;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+
+                & span {
+                    font-size: 0.8vw;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+
+                & .marcacao3 {
+                    display: flex;
+
+                    & img {
+                        border-radius: 2vw;
+                    }
+
+                    & .marcacao33 {
+                        & h3 {
+                            font-family: Arial, Helvetica, sans-serif;
+                        }
+
+                        font-size: 0.9vw;
+                    }
+                }
+            }
+        }
+
+
+    }
+
+
+    & .container5{
+        width: 60%;
+        background:blue;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 20vw;
+        height: 20vh;
+        border-radius: 0.5vw;
+
+        & .container55{
+            padding-top: 2.5vw;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1vw;
+        }
+
+        & .email{
+            padding-top: 2.5vw;
+            color: white;
+            font-size: 0.7vw;
+            margin-right: 3vw;
+
+            & input{
+                padding: 0.3vw;
+            }
+            & button{
+                padding: 0.3vw;
+                background: blue;
+                border: 1px solid white;
+            }
+        }
+    }
+}
+
+footer{
+    background:black;
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding-top: 2vw;
+    margin-top: 5vw;
+    height: 5vh;
+}
+
+#icon {
+    width: 2vw;
+    height: auto;
+}
+
+#img1 {
+    width: 24vw;
+    height: auto;
+}
+
+#colorido {
+    margin-top: 1vw;
+    background: blue;
+    border-radius: 1vw;
+    color: white;
+    width: 3vw;
+    text-align: center;
+}
